@@ -42,11 +42,11 @@ var mybot = new cmbot({
         url_shorten_api_key: 'AIzaSyCgS_W9UZYBhl3d8cLxxPYo1IaX6WzwJbc' // Go ahead and use this api key
     },
     mysql: {
-        enabled: false, // Change to true and fill out details below to enable mysql logging of song plays
-        host: '',
-        database: '',
-        user: '',
-        password: ''
+        enabled: true, // Change to true and fill out details below to enable mysql logging of song plays
+        host: 'alex.mongohq.com',
+        database: 'mysql',
+        user: 'nodejitsu',
+        password: '11775ded005186068001b8e7faf40916'
     },
     sqlite: {
         enabled: false, // Set to true to log all song plays to a sqlite database
